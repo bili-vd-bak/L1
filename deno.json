@@ -1,5 +1,8 @@
 {
   "name": "@bvd/l1",
-  "version": "1.0.0",
-  "exports": "./src/index.ts"
+  "version": "1.0.1",
+  "exports": "./src/index.ts",
+  "exclude": [
+    ".github"
+  ]
 }
