@@ -836,5 +836,5 @@
 }));
 
 if(typeof window !== 'undefined') {
-  window._L1_VERSION_ = '1.0.0'
+  window._L1_VERSION_ = '1.0.2'
 }
