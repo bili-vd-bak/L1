@@ -1,6 +1,6 @@
 {
   "name": "@bili-vd-bak/l1",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tool to parse the title of bangumi etc. Its name and function logic originate from L1(LabelFirstTitleParser) of open-ani/ani.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
