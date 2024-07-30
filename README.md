@@ -16,7 +16,7 @@ The lib is written in TypeScript, and the usage is detailed in the code hint aft
 npmjs源(@bili-vd-bak/l1)入口文件经编译处理，可直接在各环境(含浏览器)使用(见`dist`目录)。  
 jsr源(@bvd/l1)入口文件为TypeScript源码，需编译后使用(见`src`目录)。  
 
-### Node/Deno
+### Node/Deno (Tested)
 
 ```sh
 # use @bili-vd-bak from npmjs.com
@@ -39,16 +39,16 @@ const result = L1("[DBD-Raws][约会大作战 第一季/Date a Live S1/デート
 console.log(result);
 ```
 
-### Browser
+### Browser (No test)
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@bili-vd-bak/l1@1/dist/index.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@bili-vd-bak/l1@1/dist/index.min.js"></script>
 ```
 
 Or
 
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/npm/@bvd/l1@1/dist/index.esm.min.js">
+<script type="module" src="https://cdn.jsdelivr.net/npm/@bvd/l1@1/dist/index.js">
   const result = L1("[DBD-Raws][约会大作战 第一季/Date a Live S1/デート・ア・ライブ][导演剪辑版/Director's Cut/ディレクターズカット版][01-12TV全集+OAD][1080P][BDRip][HEVC-10bit][简繁外挂][FLAC][MKV]");
   console.log(result);
 </script>
