@@ -1,4 +1,4 @@
-name: Publish Package to npmjs
+name: Build and Publish Package
 on:
   release:
     types: [created]
@@ -17,7 +17,11 @@ jobs:
       - uses: pnpm/action-setup@v4
         with:
           version: 9
-      - run: pnpm i
+      - run: |
+          pnpm install
+          pnpm run lint
+          pnpm run test
+          pnpm run build
       - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
