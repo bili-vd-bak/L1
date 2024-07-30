@@ -12,7 +12,7 @@ View in [NPM(npmjs.com)](https://www.npmjs.com/package/@bili-vd-bak/l1) or [JSR(
 The lib is written in TypeScript, and the usage is detailed in the code hint after import.  
 本库使用TypeScript编写，使用方法详见导入后的代码提示。  
 
-[!CAUTION]  
+> [!CAUTION]  
 npmjs源(@bili-vd-bak/l1)入口文件经编译处理，可直接在各环境(含浏览器)使用(见`dist`目录)。  
 jsr源(@bvd/l1)入口文件为TypeScript源码，需编译后使用(见`src`目录)。  
 
