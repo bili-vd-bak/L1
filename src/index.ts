@@ -26,7 +26,7 @@ const collectionPattern =
 
 const seasonPattern = /(S\d)(?:(\+S\d)|(\+S\w)|(\+\w+))*/i;
 
-interface Builder {
+export interface Builder {
   tags: string[];
   subtitleLanguages: SubtitleLanguage.SubtitleLanguage[];
   resolution: Resolution.Resolution;
@@ -392,7 +392,12 @@ function deepClone(target: any) {
   return clone(target);
 }
 
-export default function main(title: string) {
+/**
+ * L1(LabelFirstTitleParser)
+ * @param title The name of anime etc.
+ * @returns
+ */
+function main(title: string): Builder {
   // console.log(title);
   const tags: string[] = [],
     words: string[] = [];
@@ -429,3 +434,5 @@ export default function main(title: string) {
   restoreBuilder();
   return ret;
 }
+
+export default main;

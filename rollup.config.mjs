@@ -70,6 +70,7 @@ export default {
       footer,
     },
   ],
+  external: [pkg.peerDependencies, pkg.dependencies],
   plugins: [
     json(),
     commonjs(),

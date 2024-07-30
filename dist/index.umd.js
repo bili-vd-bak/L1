@@ -791,6 +791,11 @@
         }
         return clone(target);
     }
+    /**
+     * L1(LabelFirstTitleParser)
+     * @param title The name of anime etc.
+     * @returns
+     */
     function main(title) {
         // console.log(title);
         const tags = [], words = [];
