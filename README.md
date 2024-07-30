@@ -62,18 +62,6 @@ Welcome Issue or PR.
 Logic function are also suggested to be submitted to the upstream [open-ani/ani](https://github.com/open-ani/ani).
 逻辑功能建议同时向上游 [open-ani/ani](https://github.com/open-ani/ani) 提交。  
 
-## Test 测试
-
-```sh
-pnpm test
-```
-
-## Release 发布
-
-```sh
-pnpm release
-```
-
 ## License 许可证
 
 Released under the GUN 3.0 License.  
@@ -81,10 +69,8 @@ Released under the GUN 3.0 License.
 
 ## Note 注意
 
-The logic function is also suggested to be submitted to the upstream open-ani/Ani.
-逻辑功能建议同时向上游 [open-ani/ani](<https://github.com/open-ani/ani>
-  
-)
+The logic function is also suggested to be submitted to the upstream open-ani/Ani.  
+逻辑功能建议同时向上游 [open-ani/ani](https://github.com/open-ani/ani)。
 
 ## LICENSE 许可证
 
