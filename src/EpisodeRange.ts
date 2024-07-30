@@ -1,4 +1,4 @@
-import { EpisodeSort } from "./EpisodeSort";
+import { EpisodeSort } from "./EpisodeSort.ts";
 
 export class EpisodeRange {
   /**

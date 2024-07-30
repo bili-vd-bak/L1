@@ -1,8 +1,8 @@
-import * as SubtitleLanguage from "./SubtitleLanguage";
-import * as Resolution from "./Resolution";
-import * as FrameRate from "./FrameRate";
-import * as MediaOrigin from "./MediaOrigin";
-import * as EpisodeRange from "./EpisodeRange";
+import * as SubtitleLanguage from "./SubtitleLanguage.ts";
+import * as Resolution from "./Resolution.ts";
+import * as FrameRate from "./FrameRate.ts";
+import * as MediaOrigin from "./MediaOrigin.ts";
+import * as EpisodeRange from "./EpisodeRange.ts";
 export interface Builder {
     tags: string[];
     subtitleLanguages: SubtitleLanguage.SubtitleLanguage[];

@@ -33,11 +33,11 @@ if(typeof window !== 'undefined') {
 export default {
   input: "src/index.ts",
   output: [
-    {
-      file: pkg.main,
-      format: "cjs",
-      footer,
-    },
+    // {
+    //   file: pkg.main,
+    //   format: "cjs",
+    //   footer,
+    // },
     {
       file: "dist/index.min.js",
       format: "iife",
@@ -45,12 +45,12 @@ export default {
       plugins: [terser()],
       footer,
     },
-    {
-      file: pkg.browser,
-      format: "umd",
-      name: "L1",
-      footer,
-    },
+    // {
+    //   file: pkg.browser,
+    //   format: "umd",
+    //   name: "L1",
+    //   footer,
+    // },
     {
       file: "dist/index.umd.min.js",
       format: "umd",
@@ -58,13 +58,14 @@ export default {
       plugins: [terser()],
       footer,
     },
+    // {
+    //   file: pkg.module,
+    //   format: "esm",
+    //   footer,
+    // },
     {
-      file: pkg.module,
-      format: "esm",
-      footer,
-    },
-    {
-      file: "dist/index.esm.min.js",
+      file: "dist/index.js",
+      // file: "dist/index.esm.min.js",
       format: "esm",
       plugins: [terser()],
       footer,
