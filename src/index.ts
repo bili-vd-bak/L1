@@ -10,7 +10,7 @@ const newAnime = new RegExp(
 // 性能没问题, 测了一般就 100 steps
 // @Suppress("RegExpRedundantEscape") // required on android
 const brackets =
-  /\[(?<v1>.+?)\]|\((?<v2>.+?)\){(?<v3>.+?)\}|【(?<v4>.+?)】|（(?<v5>.+?)）|「(?<v6>.+?)」|『(?<v7>.+?)』/g;
+  /\[(?<v1>.+?)\]|\((?<v2>.+?)\)|\{(?<v3>.+?)\}|【(?<v4>.+?)】|（(?<v5>.+?)）|「(?<v6>.+?)」|『(?<v7>.+?)』/g;
 
 const episodeRemove = [
   /第/,
