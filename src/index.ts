@@ -123,7 +123,7 @@ const parseEpisode = function (word: string): boolean {
     (acc, regex) => acc.replace(regex, ""),
     word
   );
-  if (Number(str)) {
+  if (Number(str) || Number(str) === 0) {
     builder.episodeRange = new EpisodeRange.EpisodeRange("Single", {
       value: str,
     });
