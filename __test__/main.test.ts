@@ -8,6 +8,7 @@ const test_list = [
   "[DBD-Raws][进击的巨人 最终季/Shingeki no Kyojin: The Final Season/進撃の巨人 The Final Season][01-28TV全集+完结篇+特典映像][1080P][BDRip][HEVC-10bit][简繁日双语外挂][FLAC][MKV]",
   "[.subbers project] 剧场版 紫罗兰永恒花园 / 劇場版 ヴァイオレット・エヴァーガーデン / Violet Evergarden the Movie [BDRip][4K HDR+2K SDR][简繁日字幕内封](附BD及剧场扫图、相关音乐、小说翻译等)",
   "【F宅】吹响吧！上低音号 SP特典合集 01-07 简 1080P MP4",
+  "[Nekomoe kissaten][Mushoku Tensei S2][00][1080p][JPSC]",
 ];
 
 describe("L1", () => {
