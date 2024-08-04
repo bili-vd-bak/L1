@@ -39,7 +39,7 @@ const result = L1("[DBD-Raws][约会大作战 第一季/Date a Live S1/デート
 console.log(result);
 ```
 
-### Browser (No test)
+### Browser (Not tested)
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@bili-vd-bak/l1@1/dist/index.min.js"></script>
@@ -62,12 +62,10 @@ Welcome Issue or PR.
 Logic function are also suggested to be submitted to the upstream [open-ani/ani](https://github.com/open-ani/ani).
 逻辑功能建议同时向上游 [open-ani/ani](https://github.com/open-ani/ani) 提交。  
 
+Current Upstream SHA: `09c9075`(master)、`130f84e`([PR](https://github.com/open-ani/ani/pull/672/commits/130f84e764cd0cf8e5a86396faee7bf87a5416f1))
+当前上游SHA: `09c9075`(master)、`130f84e`([PR](https://github.com/open-ani/ani/pull/672/commits/130f84e764cd0cf8e5a86396faee7bf87a5416f1))
+
 ## License 许可证
-
-Released under the GUN 3.0 License.  
-本库采用 GNU 3.0 许可证发布。  
-
-## LICENSE 许可证
 
 Released under the GUN 3.0 License.  
 本库采用 GNU 3.0 许可证发布。  
