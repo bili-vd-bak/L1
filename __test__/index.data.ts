@@ -1,6 +1,4 @@
-import main from "../src";
-
-const test_list = [
+const data = [
   "[DBD-Raws][约会大作战 第一季/Date a Live S1/デート・ア・ライブ][导演剪辑版/Director's Cut/ディレクターズカット版][01-12TV全集+OAD][1080P][BDRip][HEVC-10bit][简繁外挂][FLAC][MKV]",
   "【喵萌奶茶屋】★07月新番★[败犬女主角也太多了！ / 败犬女主太多了！ / 负けヒロインが多すぎる！ / Make Heroine ga Oosugiru!][02][1080p][简日双语][招募翻译时轴]",
   "[LoliHouse] 关于我转生变成史莱姆这档事 第三季 / Tensei Shitara Slime Datta Ken 3rd Season - 16(64) [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]",
@@ -11,15 +9,4 @@ const test_list = [
   "[Nekomoe kissaten][Mushoku Tensei S2][00][1080p][JPSC]",
 ];
 
-describe("L1", () => {
-  test("main", () => {
-    test_list.forEach((t) => {
-      const r = main(t);
-      console.log(`Testing ${t}`);
-      console.log(r);
-      console.log(r.episodeRange.toString());
-      console.log(r.episodeRange.knownSorts);
-      console.log("=============");
-    });
-  });
-});
+export default data;

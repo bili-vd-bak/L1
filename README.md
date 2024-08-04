@@ -56,6 +56,15 @@ Or
 
 ## Contribution 贡献
 
+Use `pnpm run test` or `pnpm run test:ui` to test.  
+使用 `pnpm run test` 或 `pnpm run test:ui` 进行测试。  
+
+Use `pnpm run lint` to check codes.  
+使用 `pnpm run lint` 检查代码检查。  
+
+Use `pnpm run build` to build (You have to build before push).  
+使用 `pnpm run build` 进行构建(推送前必须先构建)。  
+
 Welcome Issue or PR.  
 欢迎提交Issue和Pull Request。  
 
