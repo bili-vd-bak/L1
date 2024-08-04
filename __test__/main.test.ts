@@ -17,7 +17,8 @@ describe("L1", () => {
       const r = main(t);
       console.log(`Testing ${t}`);
       console.log(r);
-      console.log(r.episodeRange);
+      console.log(r.episodeRange.toString());
+      console.log(r.episodeRange.knownSorts);
       console.log("=============");
     });
   });
