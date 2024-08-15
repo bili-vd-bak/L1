@@ -1,6 +1,6 @@
 {
   "name": "@bili-vd-bak/l1",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A tool to parse the title of bangumi etc. Its name and function logic originate from L1(LabelFirstTitleParser) of open-ani/ani.",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -22,7 +22,7 @@
     "parser"
   ],
   "author": "bili-vd-bak",
-  "license": "GPL-3.0-or-later",
+  "license": "LGPL-3.0-or-later",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bili-vd-bak/L1.git"
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/bili-vd-bak/L1",
   "devDependencies": {
-    "@eslint/js": "^9.8.0",
+    "@eslint/js": "^9.9.0",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-json": "^6.1.0",
@@ -42,8 +42,8 @@
     "@types/eslint__js": "^8.42.3",
     "@typescript-eslint/parser": "^7.18.0",
     "@vitest/ui": "^2.0.5",
-    "eslint": "^9.8.0",
-    "rollup": "^4.19.1",
+    "eslint": "^9.9.0",
+    "rollup": "^4.20.0",
     "tslib": "^2.6.3",
     "typescript": "^5.5.4",
     "typescript-eslint": "^7.18.0",
