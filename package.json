@@ -43,6 +43,7 @@
     "@typescript-eslint/parser": "^7.18.0",
     "@vitest/ui": "^2.0.5",
     "eslint": "^9.9.0",
+    "globals": "^15.9.0",
     "rollup": "^4.20.0",
     "tslib": "^2.6.3",
     "typescript": "^5.5.4",
